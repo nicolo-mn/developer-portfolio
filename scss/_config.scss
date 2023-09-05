@@ -1,0 +1,14 @@
+// Variables
+$website-width: 1280px;
+$primary-color: #0a0a0b;
+$secondary-color: #2e3038;
+$paragraph-color: #858585;
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

@@ -42,8 +42,9 @@
 
 .btn {
   display: inline-block;
-  color: $btn-color;
-  background-color: set-text-color($btn-color);
+  font-family: "Prata", sans-serif;
+  background-color: $btn-color;
+  color: set-text-color($btn-color);
   padding: 0.8rem 2rem;
   border: none;
   cursor: pointer;

@@ -3,6 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Prata&family=Roboto:wght@100;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100;400&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   color: #fff;
   font-family: "Inter", sans-serif;
@@ -14,7 +20,27 @@ h3 {
   font-family: "Prata", sans-serif;
 }
 
+#main-header {
+  background: $primary-color;
+}
+
 // Navbar
 #navbar {
-  background: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li a {
+      padding: 1rem;
+    }
+  }
 }

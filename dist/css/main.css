@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Prata&family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100;400&display=swap");
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 1.5rem; }
+
+.text-center {
+  text-align: center; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.my-4 {
+  margin: 4rem 0; }
+
+.btn {
+  display: inline-block;
+  color: #fbe850;
+  background-color: #000;
+  padding: 0.8rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s; }
+
+a {
+  text-decoration: none;
+  color: #858585; }
+
+ul {
+  list-style: none; }
+
+body {
+  color: #fff;
+  font-family: "Inter", sans-serif; }
+
+h1,
+h2,
+h3 {
+  font-family: "Prata", sans-serif; }
+
+#navbar {
+  background: #0a0a0b; }

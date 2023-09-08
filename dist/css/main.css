@@ -32,6 +32,9 @@
 .my-4 {
   margin: 4rem 0; }
 
+.l-heading {
+  font-size: 2rem; }
+
 .btn {
   display: inline-block;
   font-family: "Prata", sans-serif;
@@ -58,9 +61,13 @@ body {
   color: #fff;
   font-family: "Inter", sans-serif; }
 
-h1,
-h2,
-h3 {
+p {
+  color: #858585;
+  font-size: 0.9rem;
+  line-height: 1.4; }
+
+.heading {
+  color: #fff;
   font-family: "Prata", sans-serif; }
 
 #main-header {
@@ -78,6 +85,13 @@ h3 {
     align-items: center; }
     #navbar ul li a {
       padding: 1rem; }
+
+#who {
+  display: grid;
+  grid-template-columns: 7fr 4fr; }
+  #who .heading {
+    padding-top: 3rem;
+    margin-bottom: 0.5rem; }
 
 #logos {
   display: flex;

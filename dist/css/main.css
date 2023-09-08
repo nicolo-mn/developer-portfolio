@@ -79,12 +79,10 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
-  #navbar .main-logo {
-    font-size: 1rem; }
+  align-items: center;
+  text-align: center; }
   #navbar ul {
     display: flex;
-    justify-content: space-between;
     align-items: center; }
     #navbar ul li a {
       padding: 1rem; }
@@ -119,3 +117,26 @@ p {
     column-gap: 3rem; }
     #about .container p {
       margin-bottom: 1rem; }
+
+#contact {
+  background-color: #0a0a0b;
+  text-align: left; }
+  #contact p {
+    margin-bottom: 1rem; }
+
+#main-footer {
+  background-color: #2e3038; }
+  #main-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; }
+    #main-footer .container .socials {
+      display: flex;
+      align-items: center;
+      text-align: center; }
+      #main-footer .container .socials li a {
+        margin-left: 0.5rem; }
+        #main-footer .container .socials li a img {
+          display: inline-block;
+          width: 60%; }

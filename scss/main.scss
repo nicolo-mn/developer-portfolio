@@ -34,14 +34,10 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  .main-logo {
-    font-size: 1rem;
-  }
+  text-align: center;
 
   ul {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     li a {
@@ -94,6 +90,43 @@ p {
 
     p {
       margin-bottom: 1rem;
+    }
+  }
+}
+
+// Contact
+#contact {
+  background-color: $primary-color;
+  text-align: left;
+
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+// Footer
+#main-footer {
+  background-color: $secondary-color;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    .socials {
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      li a {
+        margin-left: 0.5rem;
+
+        img {
+          display: inline-block;
+          width: 60%;
+        }
+      }
     }
   }
 }

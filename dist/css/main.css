@@ -111,3 +111,11 @@ p {
     margin-bottom: 1rem;
     display: block;
     width: 100%; }
+
+#about {
+  background-color: #2e3038; }
+  #about .container {
+    column-count: 2;
+    column-gap: 3rem; }
+    #about .container p {
+      margin-bottom: 1rem; }

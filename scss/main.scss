@@ -50,12 +50,12 @@ p {
   }
 }
 
+// Who
 #who {
   display: grid;
   grid-template-columns: 7fr 4fr;
 
   .heading {
-    padding-top: 3rem;
     margin-bottom: 0.5rem;
   }
 }
@@ -67,5 +67,22 @@ p {
 
   img {
     width: 8%;
+  }
+}
+
+// Projects
+#projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+
+  .heading {
+    padding-bottom: 0.5rem;
+  }
+
+  img {
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
   }
 }

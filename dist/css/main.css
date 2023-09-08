@@ -47,6 +47,8 @@
   border: none;
   cursor: pointer;
   transition: all 0.5s; }
+  .btn:hover {
+    background-color: #fae11e; }
 
 a {
   text-decoration: none;
@@ -85,7 +87,10 @@ p {
     display: flex;
     align-items: center; }
     #navbar ul li a {
-      padding: 1rem; }
+      padding: 1rem;
+      transition: all 0.5s; }
+      #navbar ul li a:hover {
+        color: #fff; }
 
 #who {
   display: grid;

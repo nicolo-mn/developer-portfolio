@@ -1,0 +1,50 @@
+// Tablets & Smaller
+@media (max-width: 800px) {
+  #navbar {
+    ul,
+    .btn {
+      display: none;
+    }
+
+    .menu {
+      display: block;
+    }
+  }
+
+  #who {
+    grid-template-columns: 1fr;
+  }
+
+  #logos {
+    flex-wrap: wrap;
+    justify-content: center;
+    img {
+      width: 15%;
+      margin: 1rem 3rem;
+    }
+  }
+
+  #projects {
+    grid-template-columns: 1fr;
+  }
+
+  #about {
+    .container {
+      column-count: 1;
+    }
+  }
+
+  #contact {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Mobile
+@media (max-width: 500px) {
+  #logos {
+    img {
+      width: 25%;
+      margin: 1rem 2rem;
+    }
+  }
+}

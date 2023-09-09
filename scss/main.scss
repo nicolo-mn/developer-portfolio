@@ -49,6 +49,10 @@ p {
       }
     }
   }
+
+  .menu {
+    display: none;
+  }
 }
 
 // Who
@@ -135,3 +139,5 @@ p {
     }
   }
 }
+
+@import "media";

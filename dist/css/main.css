@@ -91,6 +91,8 @@ p {
       transition: all 0.5s; }
       #navbar ul li a:hover {
         color: #fff; }
+  #navbar .menu {
+    display: none; }
 
 #who {
   display: grid;
@@ -145,3 +147,29 @@ p {
         #main-footer .container .socials li a img {
           display: inline-block;
           width: 60%; }
+
+@media (max-width: 800px) {
+  #navbar ul,
+  #navbar .btn {
+    display: none; }
+  #navbar .menu {
+    display: block; }
+  #who {
+    grid-template-columns: 1fr; }
+  #logos {
+    flex-wrap: wrap;
+    justify-content: center; }
+    #logos img {
+      width: 15%;
+      margin: 1rem 3rem; }
+  #projects {
+    grid-template-columns: 1fr; }
+  #about .container {
+    column-count: 1; }
+  #contact {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 500px) {
+  #logos img {
+    width: 25%;
+    margin: 1rem 2rem; } }
